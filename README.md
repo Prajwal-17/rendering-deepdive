@@ -40,6 +40,12 @@ Under the hood - `hydrateRoot` ,`lazy` & `Suspense` are solving the same problem
 - `lazy loading` - instead of bundling the whole app into one file, instead we can lazy load large component on when they are used
 - `Suspense` - suspense just populate the UI with loading until the content arrives
 
+### Server Actions
+
+- Server Actions `use server` are async functions that on the server but are triggered by the user through a form or button.
+- Used to create, update or delete
+- under the hood it http req, but handled by nextjs
+
 ### Server Components
 
 **Server Components** are a new type of React component that **run and render EXCLUSIVELY on the server** - they never run on the client, never hydrate, and their code never gets sent to the browser.
